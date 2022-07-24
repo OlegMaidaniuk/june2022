@@ -97,8 +97,14 @@ console.log(person);
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими
 // Імям, По-Батькові та роками. та вивести в консоль
-
-let firstnam = 'Oleh Volodymyrovych';
-let middlnam = 'Volodymyrovych';
-let year = 2022;
-prompt(firstnam, middlnam, year);
+let fn = Oleg;
+let mn = Volodumyrovich;
+let ln = Maidaniuk;
+let person1 = fn + '' + mn + '' + ln;
+let person2 = '${fn} ${mn} ${ln}'
+console.log(person2);
+let fn1 = promtp('enter you first name');
+let mn1 = promtp('enter you middl name');
+let ln1 = promptp('enter you last name name');
+let person3 = '${fn1} ${mn1} ${ln1}';
+console.log(person3);
