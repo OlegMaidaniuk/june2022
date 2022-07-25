@@ -97,14 +97,27 @@ console.log(person);
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими
 // Імям, По-Батькові та роками. та вивести в консоль
-let fn = Oleg;
-let mn = Volodumyrovich;
-let ln = Maidaniuk;
-let person1 = fn + '' + mn + '' + ln;
-let person2 = '${fn} ${mn} ${ln}'
-console.log(person2);
-let fn1 = promtp('enter you first name');
-let mn1 = promtp('enter you middl name');
-let ln1 = promptp('enter you last name name');
-let person3 = '${fn1} ${mn1} ${ln1}';
+// let fn = Oleg;
+// let mn = Volodumyrovich;
+// let ln = Maidaniuk;
+// let person1 = fn + '' + mn + '' + ln;
+// let person2 = '${fn} ${mn} ${ln}'
+// console.log(person2);
+let mn1 = prompt('enter your middl name?');
+let fn1 = prompt('enter your first name?');
+let age1 = +prompt('enter your age?')
+let person3 = `${mn1} ${fn1}    ${age1}`;
 console.log(person3);
+document.write(`<div><p>${person3}</p></div>`);
+
+let agePInt = parseInt(prompt('enter your age?'));
+console.log(agePInt);
+
+
+// let mn1=prompt(`enter your middl name?`)
+//
+// let fn1 = prompt("enter your middl name?");//
+// // ('enter you first name');
+// // let mn1 = promtp('enter you middl name');
+// let ln1 = promptp('enter you last name name');
+//
