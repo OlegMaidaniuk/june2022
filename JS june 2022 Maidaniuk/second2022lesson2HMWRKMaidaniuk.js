@@ -1,7 +1,7 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу,
 //     вивести кожен елемент в консоль
 //
-let books = ["tarzan", "bibliya", "math 6", "kobzar", "golovolomky", "maungli", "Вантажівки", "graf_drakula", "gupalo Vasil", "fozzi"];
+let books = ["tarzan", "bibliya", "math 6", "kobzar", "golovolomky", "maugli", "Вантажівки", "graf_drakula", "gupalo Vasil", "fozzi"];
 console.log(books);
 console.log(books[0]);
 console.log(books[1]);
@@ -21,20 +21,20 @@ let book11 = {
     title: "Romeo",
     genre: "Roman",
     pageCount: 268
-}
-console.log(book11)
+};
+console.log(book11);
 let book21 = {
     title: "dead",
     genre: "Fantasy",
     pageCount: 245
-}
-console.log(book21)
+};
+console.log(book21);
 let book31 = {
     title: "!Z!ombi land",
     genre: "Horror",
     pageCount: 145
-}
-console.log(book31)
+};
+console.log(book31);
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту :
 //     title ,pageCount, genre, authors.
@@ -43,24 +43,40 @@ let book12 = {
     title: "Romeo",
     genre: "Roman",
     pageCount: 268,
-    auhtors: ["Vilyam_Sheckspir", "Biron"]
+    auhtors: [
+        {
+            name:
+                "Vilyam_Sheckspir",
+            age: 178
+        }]
 };
 console.log(book12);
+
 let book22 = {
     title: "Mafiozi",
     genre: "Fantasy",
     pageCount: 245,
-    auhtors: ["Mihailo Petrovich", "Mafiothi"]
-}
-console.log(book22)
+    auhtors: [
+        {
+            name:
+                " Mihail Petrovich",
+            age: 78
+        }]
+};
+console.log(book22);
+
 let book32 = {
     title: "!Z!ombi land",
     genre: "Horror",
     pageCount: 145,
-    authors: ["Antios", "Thelyas", "Mirons"]
+    authors: [
+        {
+            name: "Antios",
+            age: 45
+        }
+    ]
+};
 
-}
-console.log(book32)
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач".' +
 // ' Поля: name, username,password. Вивести в консоль пароль кожного користувача
@@ -70,6 +86,7 @@ let user1 = {
     password: 12471984
 };
 console.log(user1);
+console.log(user1.password);
 
 let user2 =
     {
@@ -77,7 +94,7 @@ let user2 =
         username: 'BrawlStarser',
         password: 12471984
     }
-console.log(user2)
+console.log(user2);
 console.log(user2.password);
 
 let user3 =
@@ -145,4 +162,4 @@ let user10 = {
     password: 12471984
 }
 console.log(user10);
-console.log(user10['password']);
+console.log(user10["password"]);
