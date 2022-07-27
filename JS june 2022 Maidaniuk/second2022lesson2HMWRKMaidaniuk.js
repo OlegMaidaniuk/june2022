@@ -80,86 +80,61 @@ let book32 = {
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач".' +
 // ' Поля: name, username,password. Вивести в консоль пароль кожного користувача
-let user1 = {
-    name: 'Taras',
-    username: 'Minecrafter',
-    password: 12471984
-};
-console.log(user1);
-console.log(user1.password);
-
-let user2 =
+let users = [
+    {
+        name: 'Taras',
+        username: 'Minecrafter',
+        password: 12471981,
+    },
     {
         name: 'Yarik',
         username: 'BrawlStarser',
-        password: 12471984
-    }
-console.log(user2);
-console.log(user2.password);
-
-let user3 =
+        password: 12471982,
+    },
     {
         name: 'Danilo',
         username: 'Chelik',
-        password: 12471984
+        password: 12471983,
+    },
+    {
+        name: 'Miroslav',
+        username: 'Farich',
+        password: 1247194,
+    },
+    {
+        name: 'Olya',
+        username: 'Programist',
+        password: 12471985,
+    },
+    {
+        name: 'Valintina',
+        username: 'Barman',
+        password: 12471986,
+    },
+    {
+        name: 'Mikola',
+        username: 'Cser',
+        password: 12471987,
+    },
+    {
+        name: 'Vitaliy',
+        username: 'Kolodka',
+        password: 12471988,
+    },
+    {
+        name: 'Roma',
+        username: 'Tumbochka',
+        password: 12471989,
+    },
+    {
+        name: 'Illuha',
+        username: 'Vodichka',
+        password: 12471910
     }
-console.log(user3)
-console.log(user3.password);
-
-let user4 = {
-    name: 'Miroslav',
-    username: 'Farich',
-    password: 12471984
-}
-console.log(user4)
-console.log(user4.password);
-
-let user5 = {
-
-    name: 'Olya',
-    username: 'Programist',
-    password: 12471984
-}
-console.log(user5)
-console.log(user5.password);
-
-let user6 = {
-    name: 'Valintina',
-    username: 'Barman',
-    password: 12471984
-}
-console.log(user5);
+]
+console.log(users[0].password);
 
 
-let user7 = {
-    name: 'Mikola',
-    username: 'Cser',
-    password: 12471984
-}
-console.log(user7);
-console.log(user7['password']);
+console.table(users,['password']);
+// console.log(users.password)
 
-let user8 = {
-    name: 'Vitaliy',
-    username: 'Kolodka',
-    password: 12471984
-}
-console.log(user8);
-console.log(user8['password']);
-
-
-let user9 = {
-    name: 'Roma',
-    username: 'Tumbochka',
-    password: 12471984
-}
-console.log(user9);
-console.log(user9.password);
-
-let user10 = {
-    name: 'Illuha',
-    username: 'Vodichka',
-    password: 12471984
-}
-console.log(user10);
-console.log(user10["password"]);
